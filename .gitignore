@@ -1,0 +1,39 @@
+# Archivos y directorios de entorno virtual
+venv/
+env/
+.venv/
+
+# Archivos de caché de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Archivos y directorios de reportes y resultados (Allure)
+reports/
+allure-results/
+allure-report/
+
+# Archivos de log
+*.log
+logs/
+
+# Archivos de configuración sensibles (ej. API keys, credenciales)
+# Si tuvieras un archivo con credenciales (ej. config/credentials.py), lo ignorarías aquí.
+# .env
+
+# Archivos de sistema operativo
+.DS_Store # macOS
+Thumbs.db # Windows
+desktop.ini # Windows
+
+# Archivos específicos de IDEs (Visual Studio Code, PyCharm, etc.)
+.vscode/
+.idea/
+
+# Drivers de navegadores
+drivers/
+# *.chromedriver
+# *.geckodriver
